@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B57F7A2-1C13-3AEE-B11E-E6C7F2FF4DFF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CG_project</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CG_project\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CG_project.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CG_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CG_project\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CG_project.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CG_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CG_project\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CG_project.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CG_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CG_project\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CG_project.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CG_project</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ASSETS_DIR="C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSETS_DIR=\"C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets\";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;common\GLFW\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/Debug/CG_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CG_project/Debug/CG_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR="C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR=\"C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets\";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;common\GLFW\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/Release/CG_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CG_project/Release/CG_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR="C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR=\"C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets\";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;common\GLFW\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/MinSizeRel/CG_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CG_project/MinSizeRel/CG_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR="C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSETS_DIR=\"C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/assets\";OS_WIN;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\common;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glm;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;common\GLFW\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/RelWithDebInfo/CG_project.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CG_project/RelWithDebInfo/CG_project.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\bin\cmake.exe "-SC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" "-BC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" --check-stamp-file "C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeModules\FindGLFW.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\bin\cmake.exe "-SC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" "-BC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" --check-stamp-file "C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeModules\FindGLFW.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\bin\cmake.exe "-SC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" "-BC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" --check-stamp-file "C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeModules\FindGLFW.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\bin\cmake.exe "-SC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" "-BC:/Users/lishi/Downloads/CG_Final (1)/CG_Final" --check-stamp-file "C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeModules\FindGLFW.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\lishi\Downloads\cmake-3.28.1-windows-x86_64\cmake-3.28.1-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image\stb_image.cpp" />
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\AreaTex.h" />
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\SMAA_Builder.h" />
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\SearchTex.h" />
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\main.cpp" />
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\shader.h" />
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\utils.h" />
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\ZERO_CHECK.vcxproj">
+      <Project>{9018CCD2-0612-3767-8F5E-DD2E076CAF56}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

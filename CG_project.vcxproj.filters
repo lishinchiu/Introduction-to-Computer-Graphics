@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\stb_image\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\external_sources\glad\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\AreaTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\SMAA_Builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\SearchTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\src\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lishi\Downloads\CG_Final (1)\CG_Final\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8AF50BB5-0B29-381F-A40C-48DAE079E7FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E2591B4-D177-33E2-83B2-0D40E9779D54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
