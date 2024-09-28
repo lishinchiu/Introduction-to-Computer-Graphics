@@ -1,0 +1,5 @@
+/mnt/c/Users/lishi/Desktop/CG_final/bin/CMakeFiles/rt.dir
+/mnt/c/Users/lishi/Desktop/CG_final/bin/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lishi/Desktop/CG_final/bin/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lishi/Desktop/CG_final/bin/external_sources/glad/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lishi/Desktop/CG_final/bin/external_sources/glad/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/CG_project.dir
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/ALL_BUILD.dir
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/ZERO_CHECK.dir

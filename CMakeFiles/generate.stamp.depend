@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeFiles/3.28.1/CMakeSystem.cmake
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeLists.txt
+C:/Users/lishi/Downloads/CG_Final (1)/CG_Final/CMakeModules/FindGLFW.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindOpenGL.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Users/lishi/Downloads/cmake-3.28.1-windows-x86_64/cmake-3.28.1-windows-x86_64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
