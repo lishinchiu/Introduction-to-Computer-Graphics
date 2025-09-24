@@ -1,0 +1,2 @@
+C:\Demo\OpenGL 2D Example\Release\OpenGL 2D Example.exe
+C:\Users\lishi\Desktop\三上\計算機圖學\OpenGL 2D Example\OpenGL 2D Example\Release\OpenGL 2D Example.exe

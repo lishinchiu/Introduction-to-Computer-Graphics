@@ -1,0 +1,3 @@
+﻿  Main.cpp
+  LINK : 指定了 /LTCG，但未要求程式碼產生，請從連結命令列移除 /LTCG 以提升連結器效能
+  OpenGL 2D Example.vcxproj -> C:\Users\lishi\Desktop\三上\計算機圖學\HW2\OpenGL 2D Example\Release\OpenGL 2D Example.exe
